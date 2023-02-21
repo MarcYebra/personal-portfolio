@@ -1,5 +1,4 @@
-import './App.css';
-
+import './Main.css';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -7,11 +6,13 @@ import Contact from './Contact';
 const App = ( ) => {
   return (
     <div>
+      <div className="'background-color">
       <h1>Marc Yebra</h1>
 
-      < AboutMe />
       < Portfolio />
+      < AboutMe />
       < Contact />
+      </div>
     </div>
   );
 }
