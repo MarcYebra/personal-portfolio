@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <h1>Marc Yebra</h1>
-     
     </div>
   );
 }
